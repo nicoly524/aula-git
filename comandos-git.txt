@@ -22,3 +22,6 @@ fir add .
 
 -- Troca o branch de master para main
 git branch -m master main
+
+-- Envia as atualizações para o github
+git push
