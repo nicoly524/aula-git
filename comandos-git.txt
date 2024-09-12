@@ -1,0 +1,24 @@
+lista de comandos do git
+
+-- Definir usuario e email (só faz a primeira vez que usa o pc)
+git config --global user.name "NIcoly Whitehead Maria Bonani"
+
+git config --global user.email nicolywhitehead@gmail.com
+
+-- Cria uma pasta no terminal 
+mkdir aula-git
+
+-- Entra na pasta criada 
+cd aula-git
+
+-- Transforma a pasta em repositorio (só faz uma vez)
+git init
+
+-- Ver status da pasta/repositorio
+git status
+
+-- Adiciona os arquivos para serem versionados
+fir add .
+
+-- Troca o branch de master para main
+git branch -m master main
